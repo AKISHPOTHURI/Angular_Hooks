@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { AnilModule } from './anil/anil.module';
-import { EzilModule } from './ezil/ezil.module';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 
@@ -15,7 +13,7 @@ import { ChildComponent } from './child/child.component';
     ChildComponent
   ],
   imports: [
-    BrowserModule,AnilModule,EzilModule,FormsModule
+    BrowserModule,FormsModule
   ],
   providers: [],
   bootstrap: [ParentComponent]
