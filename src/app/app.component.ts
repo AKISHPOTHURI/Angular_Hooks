@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'experimentangular';
+  title = 'Angular Hooks';
   myObservable: any;
   ngOnInit() {
     this.myObservable = new Observable((observer) => {
